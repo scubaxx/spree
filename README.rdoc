@@ -1,17 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails project using spree gem.
 
-Things you may want to cover:
+Specs:
 
-* Ruby version
+* rails _4.2.6_ 
+
+* gem 'spree', '~> 3.1.0.rc1'
+  gem 'spree_auth_devise', '~> 3.1.0.rc1'
+  gem 'spree_gateway', '~> 3.1.0.rc1'
 
 * System dependencies
 
 * Configuration
 
-* Database creation
+* Database postgresql
 
 * Database initialization
 
