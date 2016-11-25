@@ -86,11 +86,6 @@ test:
 #
 production:
   <<: *default
-  host: localhost
-<<<<<<< HEAD
-  durl: <%= ENV['DATABASE_URL'] %>
-=======
   database: spree_production
   username: spree
-  password: spree
->>>>>>> 229f666dd645f887a200e5e8b43266d486cdf1b7
+  password: <%= ENV['SPREE_DATABASE_PASSWORD'] %>
