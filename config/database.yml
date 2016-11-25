@@ -84,4 +84,9 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-
+production:
+  <<: *default
+  host: localhost
+  database: spree_production
+  username: spree
+  password: spree
